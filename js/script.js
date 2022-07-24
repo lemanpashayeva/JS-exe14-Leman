@@ -15,3 +15,14 @@ const myObj = {
 for (let x in myObj) {
    console.log(myObj[x]);
 };
+
+//exe-3
+
+const arr= ["Baku" , "Moscow" , "Ankara" , "Rome"];
+const arr2= ["Azerbaijan" , "Russia" , "Turkey" , "France"]
+
+for (let y in arr) {
+    for (let z in arr2) {
+        console.log(arr[y] + " is the capital city of " + arr2[z])
+    }
+}
